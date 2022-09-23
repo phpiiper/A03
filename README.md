@@ -41,8 +41,38 @@ Part 1: Directions on Using Webstorm (On Windows)
     * Then after a few seconds, the README.md file should be available to view and edit on the left sidebar on WebStorms. Else, Google.
     * To push changes between your local file changes here to then Github:
       1. On the top right menu, look for "Git"
-      2. Choose "Push" (or keybinds: "Crtl + Shift + K")
+      2. Choose "Push" (or keybinds: "Crtl + K")
       3. In the popped-out menu, add a text describing the changes to the file, then click on "Commit and Push"
+      4. Then press "Commit"
 
 
-Part 2: Directions on Using Webstorm (On Windows)
+Part 2: GitHub Glossary
+
+* **Branch**
+  * A separate part inside a repository that can be worked on without affecting the primary part of the repository. It can be later merged into the primary part to publish the changes.
+* **Clone**
+  * A copy of a repository that is stored on the computer (rather than on a server). This allows for the user to work offline, but can still be later used to push those worked changes back into the repository.
+* **Commit**
+  * A saved revision to save your work in the repository. The state of the repository at the moment will be saved alongside future and past revisions.
+* **Fetch**
+  * Adds changes from the current (remote) repository to your local working branch. It allows you to review the changes before committingthem into the branch.
+* **GIT**
+  * "An open source program for tracking changes in text files."
+* **Github**
+  * An internet hosting service for software development using Git.
+* **Merge**
+  * Takes the changes from one branch (in the repository), then applies them to another. (Commonly occurs in "pull requests")
+* **Merge Conflict**
+  * Occurs when people make different changes to the same line of the same file (or if someone is editing a file while someone deleted that file). Must be resolved before merging those branches.
+* **Push**
+  * To send your committed changes to a remote repository on Github
+* **Pull**
+  * Fetching in changes from the remote repository and merging them
+* **Remote**
+  * Refers to the version of a repository or branch that is hosted on a server (Github)
+* **Repository**
+  * A hosted project folder in Github (public or private) that contains all project files (including documentation) and stores each file's revision history.
+
+Part 2: References
+- Github Terms
+  - https://docs.github.com/en/get-started/quickstart/github-glossary
